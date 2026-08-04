@@ -2,3 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+*.html
+*.docx
+*.tex
+*.log
+/PhD_files/
