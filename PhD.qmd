@@ -2,7 +2,7 @@
 title: "Continuous glucose monitoring for metabolic profiling in prediabetes"
 subtitle: "DDEA application"
 author: "Mikkel Errboe Steentoft"
-date: 2026-08-05
+date: 2026-08-07
 date-format: "DD-MM-YYYY"
 editor: visual
 bibliography: references.bib
@@ -13,21 +13,29 @@ format:
   docx:
     toc: false
     number-sections: true
+    include-before-body: frontpage.tex
   typst:
     toc: false
     number-sections: true
     page-numbering: "1"
+    include-before-body: frontpage.tex
 ---
 
-## Background
+## Project description
 
-Prediabetes is a state of elevated blood glucose levels below the threshold for type 2 diabetes and is associated with increased risk of diabetes [@tabák2012], cardiovascular disease (CVD) and mortality [@vistisen2018]. Prediabetes is currently defined by different glycemic thresholds; elevated glycated hemoglobin (HbA1c) level of 39-47 mmol/mol [@americandiabetesassociationprofessionalpracticecommittee2025] or 42-47 mmol/mol [@internat2009], elevated fasting glucose levels (IFG) or elevated 2-hour-glucose (2hPG) after an oral glucose tolerance test (OGTT). While current diagnostic criteria for prediabetes capture the degree of dysglycemia at a single time point, they offer limited insight into underlying pathophysiology. Individuals meeting the same glycemic criteria for prediabetes may differ substantially in their underlying metabolic drivers and risk trajectories. This includes distinct characteristics of insulin resistance, beta-cell function and body fat distribution along with varying risks of developing diabetes and related complications [@wagner2026]. Given this substantial heterogeneity among individuals with prediabetes, effective prevention requires the ability to distinguish high-risk individuals who could benefit from early, intensive intervention from low-risk individuals who require minimal clinical attention [@blond2023]. However, assessment of the underlying metabolic drivers currently relies on complex tools, such as the OGTT for measuring post-load glucose regulation, or MRI and ultrasonography for the assessment of body fat distribution [@wagner2021; @stroebel2025]. An important step towards precision prevention is therefore to develop more clinically accessible tools capable of capturing underlying metabolic dimensions.
+### Background
 
-Continuous glucose monitoring (CGM) offers a possibility to assess detailed and dynamic indices of glucose regulation under free-living conditions, and is already widely used in the management of type 1 and type 2 diabetes [@battelino2025]. Emerging evidence suggests that the use of CGM could also be beneficial in the management of individuals with prediabetes [@zahalka2024]. Recent studies including large-scale machine learning models have shown that CGM- and wearable-derived measures can predict future glycemic deterioration, incident type 2 diabetes, cardiovascular outcomes [@lutsker2026] and insulin resistance [@metwally2026]. While these approaches have the potential to provide important information for risk stratification, they provide limited insight into the distinction between insulin resistance and beta-cell function - a distinction that may be important not only for identifying who is at risk, but also for determining which type of preventative strategy, such as intensive lifestyle interventions or early pharmacological treatment, is most suitable for a given individual [@wagner2026]. In this context, it remains unclear whether CGM- and wearable-derived information in free-living conditions can help identify underlying metabolic dimensions, such as insulin resistance and beta-cell function, among individuals with prediabetes, and how this could inform future precision prevention strategies.
+Prediabetes is a state of elevated blood glucose levels below the threshold for type 2 diabetes and is associated with increased risk of diabetes [@tabák2012], cardiovascular disease (CVD) and mortality [@vistisen2018]. Prediabetes is currently defined by different glycemic thresholds; elevated glycated hemoglobin (HbA1c) level of 39-47 mmol/mol [@americandiabetesassociationprofessionalpracticecommittee2025] or 42-47 mmol/mol [@internat2009], elevated fasting glucose levels (IFG) or elevated 2-hour-glucose (2hPG) after an oral glucose tolerance test (OGTT). While current diagnostic criteria for prediabetes capture the degree of dysglycemia at a single time point, they offer limited insight into underlying pathophysiology. Individuals meeting the same glycemic criteria for prediabetes may differ substantially in their underlying metabolic drivers and risk trajectories. This includes distinct characteristics of insulin resistance, beta-cell function and body fat distribution along with varying risks of developing diabetes and related complications [@wagner2026]. Given this substantial heterogeneity among individuals with prediabetes, effective prevention requires the ability to distinguish high-risk individuals who could benefit from early, targeted intervention from low-risk individuals who require minimal clinical attention [@blond2023]. However, assessment of the underlying metabolic drivers currently relies on complex tools, such as the OGTT for measuring post-load glucose regulation, or MRI and ultrasonography for the assessment of body fat distribution [@wagner2021; @stroebel2025]. An important step towards precision prevention is therefore to develop more clinically accessible tools capable of capturing underlying metabolic dimensions.
 
-## Aims
+Continuous glucose monitoring (CGM) offers a possibility to assess detailed and dynamic indices of glucose regulation under free-living conditions, and is widely used in the management of type 1 [@battelino2025]. Emerging evidence suggests that the use of CGM could also be beneficial in the management of individuals with prediabetes [@zahalka2024]. Recent studies including large-scale machine learning models have shown that CGM- and wearable-derived measures can predict future glycemic deterioration, incident type 2 diabetes, cardiovascular outcomes [@lutsker2026] and insulin resistance [@metwally2026]. While these approaches have the potential to provide important information for risk stratification, they provide limited insight into the distinction between insulin resistance and beta-cell function - a distinction that may be important not only for identifying who is at risk, but also for determining which type of preventative strategy, such as intensive lifestyle interventions or early pharmacological treatment, is most suitable for a given individual [@wagner2026]. In this context, it remains unclear whether CGM- and wearable-derived information in free-living conditions can help identify underlying metabolic dimensions, such as insulin resistance and beta-cell function, among individuals with prediabetes, and how this could inform future precision prevention strategies.
 
-The overall aim of this PhD project is to assess whether continuous glucose monitoring, combined with other free-living data, can help characterize underlying metabolic dimensions, including OGTT-derived measures of insulin resistance and beta-cell function, among individuals with prediabetes. The project comprises three studies, encompassing cross-sectional and longitudinal observational analyses and detailed physiological characterisation. Study 1 establishes whether CGM- and lifestyle-derived measures are associated with insulin resistance and beta-cell function in a prediabetes cohort. Study 2 examines whether these associations are observed in an independent cohort and relate to long-term outcomes. Study 3 provides physiological insight into the metabolic processes reflected by CGM response patterns. Table 1 provides an overview for study aims, data sources and populations across the three studies.
+### Aims
+
+> **The overall aim of this PhD project is to determine whether continuous glucose monitoring can identify clinically relevant metabolic phenotypes among individuals with prediabetes, and whether CGM-derived patterns are associated with future health outcomes and underlying physiological processes.**
+
+The overall aim of this PhD project is to assess to what extend continuous glucose monitoring can identify clinically relevant metabolic phenotypes among individuals with prediabetes, and to what exted CGM-derived patterns are associated with future health outcomes and underlying physiological processes.
+
+with other free-living data, can help characterize underlying metabolic dimensions, including OGTT-derived measures of insulin resistance and beta-cell function, among individuals with prediabetes. The project comprises three studies, encompassing cross-sectional and longitudinal observational analyses and detailed physiological characterisation. Study 1 establishes whether CGM- and lifestyle-derived measures are associated with insulin resistance and beta-cell function in a prediabetes cohort. Study 2 examines whether these associations are observed in an independent cohort and relate to long-term outcomes. Study 3 provides physiological insight into the metabolic processes reflected by CGM response patterns. Table 1 provides an overview for study aims, data sources and populations across the three studies.
 
 ```{r}
 #| label: tbl-studies
@@ -43,17 +51,17 @@ studies <- tribble(
   "Study 1 Cross-sectional",
   "Assess how CGM-derived glycemic patterns, along with free-living lifestyle data (physical activity, sleep, diet), are associated with insulin resistance and beta-cell function among individuals with prediabetes.",
   "Baseline data from the DP-NEXT study (Work Package 3: Heterogeneity), a Danish study characterizing heterogeneity among individuals with prediabetes.",
-  "Danish adults aged 40-50 years with an HbA1c measurement between 42-47 mmol/mol.",
+  "Danish adults aged 40-55 years with an HbA1c measurement between 42-47 mmol/mol. N = 1000.",
   
   "Study 2 Longitudinal",
   "Investigate how CGM-derived glycemic patterns and related free-living lifestyle characteristics are associated with insulin resistance and beta-cell function, along with long-term outcomes including type 2 diabetes, cardiovascular disease and mortality.",
-  "Baseline and follow-up data from the Maastricht Study, a Dutch phenotyping study focusing on the etiology of type 2 diabetes.",
-  "Dutch adults aged 40-75 years with an HbA1c measurement between 42-47 mmol/mol.",
+  "Baseline and follow-up data from the Maastricht Study, a Dutch phenotyping study focusing on the etiology of type 2 diabetes, with a subset of participants having prediabetes",
+  "Dutch adults aged 40-75 years with an HbA1c measurement between 42-47 mmol/mol. N = 511",
   
   "Study 3 Exploratory, hypothesis-generating physiological study",
   "Characterize underlying metabolic dimensions, including insulin resistance, beta-cell function and substrate metabolism, and how they relate to CGM response patterns.",
   "Exploratory physiological study using whole-room indirect calorimetry at Steno Diabetes Center Aarhus.",
-  "5-10 participants with prediabetes from Work Package 3 in the DP-NEXT study."
+  "10 participants with prediabetes from Work Package 3 in the DP-NEXT study."
 )
 
 ft <- flextable(studies) |>
@@ -71,24 +79,114 @@ ft <- flextable(studies) |>
 ft
 ```
 
-## Research design and methods
+### Research Design and Methods
 
 **Study 1:** Cross-sectional study of the associations between CGM-derived glucose patterns, free-living measures of physical activity, sleep, diet and oral glucose tolerance test-derived indices of insulin resistance and beta-cell function.
 
-The aim of work package 3 in the DP-NEXT study is to characterize heterogeneity among individuals with prediabetes and will collect a large variety of data (<https://dp-next.github.io/wp3.html>). This study will assess which combinations of free-living clinically accessible measures, separate or in combinations, best capture variation in insulin resistance and beta-cell function derived from the oral glucose tolerance test. In this study, we will use the following data from the DP-NEXT study (but not limited to): Free-living dynamic glucose patterns through CGM, physical activity and sleep through wrist-worn actigraphy, diet registration, glucose and insulin measures from a 4-point OGTT, sociodemographic characteristics and anthropometric characteristics and measures of body fat distribution.
+The aim of work package 3 in the DP-NEXT study is to characterize heterogeneity among individuals with prediabetes and will collect a large variety of data (<https://dp-next.github.io/wp3.html>). The DP-NEXT exclusively recruits individuals with prediabetes (HbA1c 42-47 mmol/mol), providing a population uniquely suited to characterize heterogeneity specifically within a individuals with prediabetes. This study will assess which combinations of free-living clinically accessible measures, separate or in combinations, best capture variation in insulin resistance and beta-cell function derived from the oral glucose tolerance test. In this study, we will use the following data from the DP-NEXT study: Free-living dynamic glucose patterns through CGM, physical activity and sleep through wrist-worn actigraphy, diet registration, glucose and insulin measures from a 4-point OGTT, sociodemographic characteristics and anthropometric characteristics and measures of body fat distribution. These data are planned to be collected during 2026-2027.
 
 **Study 2:** Longitudinal study assessing associations between baseline CGM-derived glucose patterns, related lifestyle characteristics, insulin resistance and beta-cell function, as well as their relevance in predicting long-term outcomes including type 2 diabetes, cardiovascular disease and mortality.
 
-The Maastricht Study is a large phenotyping cohort study investigating the etiology of type 2 diabetes, with baseline and follow-up data available for a subset of participants [@schram2014]. In this study, we will use the following data from the Maastricht Study at baseline and follow-up where available (but not limited to): Free-living dynamic glucose patterns through CGM, physical activity and sleep through accelerometry, diet registration, glucose and insulin measures from an OGTT, sociodemographic characteristics, anthropometric characteristics, measures of body fat distribution and incident type 2 diabetes, cardiovascular disease and mortality.
+The Maastricht Study is a large phenotyping cohort study investigating the etiology of type 2 diabetes [@schram2014], where extensive phenotyping was performed on n = 3410 participants. In this study, we will examine the following baseline and follow-up data for the subset of participants who were categorized as having prediabetes (n = 511) [@veugen2022]: Free-living dynamic glucose patterns through CGM, physical activity and sleep through accelerometry, diet registration, glucose and insulin measures from an OGTT, sociodemographic characteristics, anthropometric characteristics, measures of body fat distribution and incident type 2 diabetes, cardiovascular disease and mortality. Phase 1 of the Maastricht Study (baseline visits) was conducted between 2010 and 2020, while Phase 2 (follow-up visits) was initiated in 2020 and still running. As the latest data freeze is from April 2023, additional follow-up data is expected to be available at the time this study will be conducted.
 
 **Study 3:** Exploratory physiological study characterizing underlying metabolic dimensions of prediabetes including insulin resistance, beta-cell function and substrate metabolism and their relation to CGM patterns under controlled conditions.
 
-A small number (5-10) of participants from the DP-NEXT study (see study 1), selected to represent high-risk metabolic profiles will be invited to undergo detailed physiological characterization using the whole-room indirect calorimetry room at Steno Diabetes Center Aarhus. In this study, we will collect the following data (but not limited to): Indirect calorimetry measures of energy metabolism at rest and in response to diet and exercise protocols, glucose and insulin measures from an OGTT and dynamic glucose patterns through CGM.
+A small number of participants (n = 10) from the DP-NEXT study (see study 1), selected to represent high-risk metabolic profiles will be invited to undergo detailed physiological characterization using the whole-room indirect calorimetry room at Steno Diabetes Center Aarhus. In this study, we will collect the following data: Indirect calorimetry measures of energy metabolism at rest and in response to diet and exercise protocols, glucose and insulin measures from an OGTT and dynamic glucose patterns through CGM.
 
-## References
+### Statistical analysis
+
+{{< pagebreak >}}
+
+### References
 
 ```{r}
 #| echo: false
 #| message: false
 #refs
 ```
+
+{{< pagebreak >}}
+
+## Motivation letter
+
+My motivation for pursuing this PhD project has developed through a deliberate transition from clinical physiotherapy to public health research, epidemiology and statistics. Working as a physiotherapist gave me an understanding of how metabolic health challenges affect individuals in everyday life, and of the need for prevention strategies that are both meaningful for patients and feasible in clinical practice.
+
+My studies and work with epidemiology and data-driven research has given me the methodological perspective needed to identify and investigate health challenges at a population level. I am motivated by the opportunity to use detailed health data to understand why individuals with apparently similar clinical characteristics may have different metabolic profiles, risks and outcomes. This combination of clinical experience and quantitative research skills makes me well suited to conduct a project that aims to bridge detailed metabolic phenotyping and clinically accessible prevention tools.
+
+The proposed project closely matches my interests. I am particularly motivated by the potential of continuous glucose monitoring and free-living data to improve our understanding of insulin resistance and beta-cell function in individuals with prediabetes. The combination of analyses in well-characterized cohorts and detailed physiological assessments provides an ideal setting for me to develop as an independent researcher across epidemiology, clinical research and physiology.
+
+My long-term ambition is to pursue a research career across public health and clinical practice. I aim to contribute to research that translates advanced epidemiological and physiological methods into more targeted and accessible strategies for prevention of type 2 diabetes and related complications.
+
+{{< pagebreak >}}
+
+## Relation to DDEA focus areas
+
+### International collaboration
+
+An important part of this PhD project is the international collaboration with Maastricht University, home to the Maastricht Study, which is the data source for Study 2 of this project. Unlike DP-NEXT, which is a newly initiated cohort, the Maastricht Study already has extensive baseline and follow-up data available, including CGM measurements and long-term outcomes such as type 2 diabetes and cardiovascular disease. This makes the collaboration essential to the project: Study 2 could not be conducted without it, and it directly enables the outcome validation step. Maastricht University has established expertise in CGM-derived measures, which will provide important guidance to the studies in this project. A research stay in Maastricht is therefore planned as part of this collaboration, with engagement with the Maastricht Study, its data and the research environment.
+
+<!-- Consider also to present names of the specific researchers from maastricht university -->
+
+### Interdisciplinary collaboration
+
+The three studies in this PhD project depend on several interdisciplinary collaborations. While Study 1 and Study 2 rely primarily on epidemiology, biostatistics and clinical medicine, Study 3 will require expertise in human physiology, metabolism and nutritional science through detailed physiological characterization using whole-room indirect calorimetry, <!-- (in collaboration with [navn/gruppe] at Steno Diabetes Center Aarhus)-->. Integrating these disciplines will provide synergistic value by combining population-based epidemiological research with mechanistic physiological assessments, which allows findings on metabolic dimensions identified in Study 1 and 2 to be interpreted at a physiological level in Study 3. My own clinical background as a physiotherapist further relates to the disciplines across all three studies, providing a functional and patient-oriented perspective that informs how free-living lifestyle data are interpreted in Study 1 and 2, and how physiological testing is designed and understood in Study 3. This interdisciplinary approach will generate an understanding of the underlying metabolic dimensions of prediabetes and demonstrate how different disciplines and methodologies can be combined in future research.
+
+### Collaboration across sectors
+
+This PhD project incorporates collaboration across sectors through its close connection to clinical practice at Steno Diabetes Center Aarhus (SDCA), which functions both as a research and development center and as a clinical unit providing treatment for individuals with diabetes. Study 1 and Study 3 will be conducted among patients from the DP-NEXT cohort within this clinical setting, ensuring that the project remains grounded in real-world clinical practice. Beyond the project itself, the findings have the potential to facilitate future collaboration with industry, for further development of CGM technology for clinical use, and with general practice and clinical practice more broadly, for assessing the feasibility of using CGM-based risk stratification of patients with prediabetes in real-world settings.
+
+### Patient and/or public involvement (PPI)
+
+Patient and public involvement (PPI) is most applicable in Study 3, where participants are recruited and tested in person. Individuals invited to participate will be asked for feedback on the burden of study procedures, including whole-room indirect calorimetry testing. As Study 1 and Study 2 rely on data from existing cohorts (DP-NEXT and the Maastricht Study, respectively) without direct participant contact, PPI is less applicable. However, insights from Study 3 regarding the communication and clinical relevance of CGM-derived risk information will inform how findings across all three studies are interpreted and presented. Ultimately, this project aims to enable more accessible identification of individuals with prediabetes at high risk of progression to type 2 diabetes, while reducing unnecessary testing burden for those at lower risk, a goal best achieved with meaningful input from the patients.
+
+{{< pagebreak >}}
+
+## Curriculum Vitae
+
+Mikkel Errboe Steentoft
+
+### Education
+
+- **2024–2026**: MSc in Health science, Aarhus University, Department of Public Health
+
+  - Specialized in advanced epidemiology and statistics and quantitative research methodology
+
+- **2017–2021**: BSc in Physiotherapy, VIA University College, Aarhus
+
+### Employment
+
+- **2026–present**: Research Assistant, Steno Diabetes Center Aarhus, DP-Next project
+
+- **2021–2024**: Clinical physiotherapist, BeneFit Højbjerg
+
+### Research experience
+
+- **2025-2026: Master thesis project at Steno Diabetes Center Aarhus:** *Heterogeneity in GLP-1, GIP and glucagon responses during an oral glucose tolerance test among individuals at high risk of type 2 diabetes* (Manuscript in process of being finalized and submitted to journal).
+
+- **2020-2021: Bachelor's project with DEFACTUM, Aarhus:** Investigating the use of the watt-max test in municipal cardiac rehabilitation. The study examined the extent to which individuals diagnosed with ischemic heart disease achieved maximal oxygen uptake during the test, and assessed agreement between physiotherapists' clinical judgment and objective criteria in determining maximal effort.
+
+### Participation in research meetings
+
+- **2026:** Presentation on methodological considerations in characterizing metabolic heterogeneity in prediabetes, DP-NEXT project meeting, Steno Diabetes Center Aarhus.
+
+- **2025–2026:** Regular participation in DP-NEXT project meetings and events, Steno Diabetes Center Aarhus.
+
+{{< pagebreak >}}
+
+## Publication list
+
+No publications yet. A manuscript based on the applicant's master's thesis is currently being finalized for journal submission (see Research experience).
+
+{{< pagebreak >}}
+
+## Bachelors and Masters degree certificate
+
+{{< pagebreak >}}
+
+## Short Curriculum Vitae of the principal supervisor
+
+{{< pagebreak >}}
+
+## Other relevant documents
+
+### Documentation of agreement of research stay at Maastricht University
