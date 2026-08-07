@@ -31,11 +31,7 @@ Continuous glucose monitoring (CGM) offers a possibility to assess detailed and 
 
 ### Aims
 
-> **The overall aim of this PhD project is to determine whether continuous glucose monitoring can identify clinically relevant metabolic phenotypes among individuals with prediabetes, and whether CGM-derived patterns are associated with future health outcomes and underlying physiological processes.**
-
-The overall aim of this PhD project is to assess to what extend continuous glucose monitoring can identify clinically relevant metabolic phenotypes among individuals with prediabetes, and to what exted CGM-derived patterns are associated with future health outcomes and underlying physiological processes.
-
-with other free-living data, can help characterize underlying metabolic dimensions, including OGTT-derived measures of insulin resistance and beta-cell function, among individuals with prediabetes. The project comprises three studies, encompassing cross-sectional and longitudinal observational analyses and detailed physiological characterisation. Study 1 establishes whether CGM- and lifestyle-derived measures are associated with insulin resistance and beta-cell function in a prediabetes cohort. Study 2 examines whether these associations are observed in an independent cohort and relate to long-term outcomes. Study 3 provides physiological insight into the metabolic processes reflected by CGM response patterns. Table 1 provides an overview for study aims, data sources and populations across the three studies.
+The overall aim of this PhD project is to assess to what extend continuous glucose monitoring, combined with other free-living data, can help characterize underlying metabolic dimensions, including OGTT-derived measures of insulin resistance and beta-cell function, among individuals with prediabetes. The project comprises three studies, encompassing cross-sectional and longitudinal observational analyses and detailed physiological characterisation. Study 1 establishes whether CGM- and lifestyle-derived measures are associated with insulin resistance and beta-cell function in a prediabetes cohort. Study 2 examines whether these associations are observed in an independent cohort and relate to long-term outcomes. Study 3 provides physiological insight into the metabolic processes reflected by CGM response patterns. Table 1 provides an overview for study aims, data sources and populations across the three studies.
 
 ```{r}
 #| label: tbl-studies
