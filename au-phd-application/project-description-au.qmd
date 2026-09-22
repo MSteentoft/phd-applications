@@ -1,0 +1,118 @@
+---
+bibliography: references.bib
+link-citations: false
+csl: https://zotero.org/styles/vancouver-nlm
+number-sections: false
+mainfont: "Times New Roman"
+lang: en-GB
+format: pdf
+---
+
+**Academic title and name:** Mikkel Errboe Steentoft, MSc in Health Science**\
+Project title:** Continuous glucose monitoring for metabolic phenotyping and targeted prevention of type 2 diabetes**\
+Number of characters incl. spaces in project description:** 11.811**\
+figures and pictures:** 2 (Table 1 + Figure 1, both in Appendix)
+
+# Project description
+
+**Background**
+
+Prediabetes is a state of elevated blood glucose levels below the threshold for type 2 diabetes and is associated with increased risk of diabetes [@tabák2012], cardiovascular disease and mortality [@vistisen2018]. Prediabetes is defined by different glycemic thresholds; elevated glycated hemoglobin (HbA1c, a marker of blood glucose levels the past three months), elevated fasting glucose levels or elevated 2-hour-glucose after an oral glucose tolerance test (OGTT) [@americandiabetesassociationprofessionalpracticecommittee2025; @internat2009], in which blood glucose is measured before and after drinking a mixture of water and glucose [@bartoli2011]. While current diagnostic criteria for prediabetes capture the degree of dysglycemia at a single time point, they offer limited insight into underlying pathophysiology. Individuals meeting the same glycemic criteria for prediabetes may differ substantially in their underlying metabolic drivers and risk trajectories. This heterogeneity includes differences in insulin resistance (a reduced response to insulin in the body's cells), beta-cell function (the pancreas' ability to produce insulin) and the risk of developing diabetes and related complications [@wagner2026]. Given this heterogeneity, more precise and effective prevention requires the ability to distinguish high-risk individuals who could benefit from early, targeted intervention from low-risk individuals who require less clinical attention [@blond2023]. However, assessment of the underlying metabolic drivers currently relies on complex tools, such as the OGTT for measuring glucose regulation [@wagner2021]. An important step towards precision prevention is therefore to develop more accessible tools capable of capturing underlying metabolic dimensions.
+
+Continuous glucose monitoring (CGM), a small sensor typically worn on the arm, offers a possibility to assess glucose regulation under free-living conditions and is widely used in the management of type 1 diabetes [@battelino2025]. Emerging evidence suggests that CGM could also be beneficial in the management of individuals with prediabetes [@zahalka2024]. Recent studies have shown that CGM measures can predict glucose levels [@vandoorn2021] as well as glycemic deterioration, incident type 2 diabetes and cardiovascular outcomes [@lutsker2026]. While these approaches may provide important information for risk stratification, they provide limited insight into the distinction between insulin resistance and beta-cell function. This distinction may be important for identifying individuals at risk and determining which type of preventive strategy, such as intensive lifestyle interventions or early pharmacological treatment, is most appropriate for a given individual [@wagner2026]. However, it remains unclear whether CGM-derived patterns collected under free-living conditions can distinguish between different metabolic dimensions, such as insulin resistance and beta-cell function. Addressing this gap could clarify whether CGM as an accessible tool has the potential for metabolic phenotyping and precision prevention. Furthermore, gaining insight into the physiological processes underlying differences in CGM-derived patterns, including how the body utilises fat and glucose as energy substrates, may provide a deeper understanding of the metabolic phenotypes reflected by CGM.
+
+**Aims and hypotheses**
+
+The overall aim of this PhD project is to assess to what extent CGM can help characterise glycemic patterns and underlying metabolic phenotypes among individuals with prediabetes. This is addressed across three studies. Study 1 examines the cross-sectional associations between CGM-derived glycemic patterns and OGTT-derived indices of insulin resistance and beta-cell function among individuals with prediabetes. The primary hypothesis is that CGM-derived glycemic patterns are associated with different profiles of insulin resistance and beta-cell function. Study 2 examines whether CGM-derived glycemic patterns are associated with long-term risk of type 2 diabetes, cardiovascular disease and mortality. We hypothesise that distinct CGM-derived glycemic patterns are associated with different long-term risks of type 2 diabetes, cardiovascular disease and mortality, and provide prognostic information beyond conventional measures of dysglycemia. Study 3 provides physiological insight into substrate metabolism and energy expenditure associated with the metabolic phenotypes examined in this project. Specifically, we hypothesise that individuals with a less favourable metabolic phenotype will have lower metabolic flexibility. Table 1 summarises study aims, data sources and populations across the three studies.
+
+## Materials and methods
+
+**CGM metrics**
+
+CGM-derived glycemic patterns will be characterised using standard metrics, including mean glucose and the proportion of time an individual's glucose levels are below, above or in a specific target range. In addition, several measures of glucose variability, that is, how much and how often blood glucose fluctuates during the day, will be included, such as the coefficient of variation, standard deviation and the mean amplitude of glycemic excursions [@battelino2019; @bergenstal2018; @zahalka2024]. Machine learning-based approaches will also be explored to assess whether data-driven CGM features can capture additional variation in insulin resistance and beta-cell function beyond standard metrics, consistent with recent research showing the potential of such approaches to identify clinically relevant patterns in CGM data [@lutsker2026; @metwally2026b].
+
+**Study 1: Cross-sectional study**
+
+**Aim:** To assess the association between CGM-derived glycemic patterns and OGTT-derived indices of insulin resistance and beta-cell function.
+
+The Danish DP-Next study characterises heterogeneity among individuals with prediabetes (n = 1000) and exclusively recruits individuals with an HbA1c measurement in the prediabetic range (42–47 mmol/mol), providing a clinically relevant population similar to individuals diagnosed with prediabetes in clinical practice. While CGM-derived measures have been associated with insulin resistance, it remains unclear whether CGM patterns can also capture differences in beta-cell function. This study will therefore assess both dimensions using standard OGTT-derived indices of insulin resistance and beta-cell function as primary outcomes. We will examine the following data from the DP-Next study, planned to be collected during 2026-2027: free-living glucose patterns measured by CGM, glucose and insulin measures from a 4-point OGTT, sociodemographic and anthropometric characteristics, measures of body fat distribution, diet registration and data on physical activity and sleep through actigraphy. Associations between CGM-derived glycemic patterns and OGTT-derived indices of insulin resistance and beta-cell function will be assessed using linear regression models, adjusted for confounders identified based on existing literature. Lifestyle measures will be used to characterise participants and to further adjust for potential confounding.
+
+**Study 2: Longitudinal study**
+
+**Aim:** To investigate to what extent CGM-derived glycemic patterns are associated with long-term risk of type 2 diabetes, cardiovascular disease and mortality.
+
+The Maastricht study is a large phenotyping cohort study investigating the etiology of type 2 diabetes [@schram2014], where extensive phenotyping was performed on n = 3410 participants. This study will use follow-up data to assess whether CGM-derived glycemic patterns are associated with development of type 2 diabetes, cardiovascular disease and mortality among the subset of participants categorised as having prediabetes (n = 511) [@veugen2022]. Data will include baseline data on free-living glucose patterns measured by CGM, physical activity and sleep through accelerometry, diet registration, glucose and insulin measures from an OGTT, sociodemographic and anthropometric characteristics and measures of body fat distribution and follow-up data on incident type 2 diabetes, cardiovascular disease and mortality. Phase 1 of the Maastricht Study (baseline visits) was conducted between 2010 and 2020, while Phase 2 (follow-up visits) was initiated in 2020 and is still running. As the latest data freeze is from April 2023, additional follow-up data is expected to be available at the time this study will be conducted. Cox regression models will be used to assess the association between CGM-derived glycemic patterns and incident type 2 diabetes, cardiovascular disease and mortality, adjusting for conventional measures of dysglycemia and potential confounders.
+
+**Study 3: Exploratory physiological study**
+
+**Aim:** To examine substrate metabolism and energy expenditure associated with different metabolic phenotypes in prediabetes, and how these physiological characteristics relate to CGM- and OGTT-derived glycemic patterns.
+
+Studies 1 and 2 rely on CGM data collected under free-living conditions, where glucose patterns are influenced by meals and physical activity. While this provides insight into real-world glycemic patterns, it remains unclear which underlying metabolic processes contribute to these patterns. In Study 3, we aim to include n = 34 participants from the DP-Next study, selected based on metabolic risk profiles identified through the DP-Next heterogeneity analyses, with participants representing the highest and lowest ends of the metabolic risk spectrum. These participants will undergo physiological characterisation using the whole-room indirect calorimetry facility at Steno Diabetes Center Aarhus, where diet and physical activity can be controlled and timed through standardised protocols. We will collect indirect calorimetry measures of substrate metabolism and energy expenditure at rest and in response to these protocols, as well as glucose and insulin measures from an OGTT and glucose response patterns measured by CGM. Metabolic flexibility will be quantified through the change in the respiratory exchange ratio (RER, an indirect measure of substrate oxidation) before and after the diet and exercise protocols. Statistical analyses will be conducted in two steps. First, we will compare metabolic flexibility between different metabolic phenotypes using linear regression models. Second, we will assess how differences in metabolic flexibility are reflected in CGM- and OGTT-derived glycemic patterns.
+
+The sample size for Study 3 is based on an expected effect size (Cohen's d = 1.01), indicating that 17 participants per group (total n = 34) would provide 80% power at a 5% significance level. This estimate is based on an anticipated group difference in ΔRER of 0.043 [@weijer2013]. The final sample size will be informed by practical recruitment considerations and the feasibility of recruiting participants from the DP-Next cohort.
+
+**Research plan and perspectives**
+
+I will have primary responsibility for all three studies, including participant recruitment (Study 3), data cleaning, statistical analysis and manuscript writing, under the supervision of the supervisory team. I am already involved in data collection within DP-Next and will lead the subsequent analysis of Study 1. For Study 3, I will conduct the whole-room indirect calorimetry testing following training. During the research stay at Maastricht University, I will collaborate with the local research group on the analysis of Study 2 and contribute to the research and teaching environment. Figure 1 shows the project timeline. The project is expected to generate new insights into whether CGM can be used for metabolic phenotyping in prediabetes, informing targeted use of preventive resources in clinical and general practice. This aligns with the broader ambition in the new Danish health reform, to move diagnostic and preventive efforts closer to citizens through accessible, technology-based solutions in primary and near-hospital care. Findings may also inform future industry collaboration on CGM technology development and contribute to prospective validation studies using CGM-based stratification in prediabetes.
+
+{{< pagebreak >}}
+
+**References**
+
+::: {#refs}
+:::
+
+{{< pagebreak >}}
+
+**Appendix**
+
+```{r}
+#| label: tbl-studies
+#| tbl-cap: "Overview of study aims, data sources and populations"
+#| echo: false
+#| message: false
+library(flextable)
+library(tibble)
+
+studies <- tribble(
+  ~Study, ~Aim, ~`Data source`, ~ Population,
+
+  "Study 1 Cross-sectional",
+  "Assess how CGM-derived glycemic patterns are associated with insulin resistance and beta-cell function among individuals with prediabetes.",
+  "Baseline data from the DP-Next study (Work Package 3: Heterogeneity), a Danish study characterising heterogeneity among individuals with prediabetes.",
+  "Danish adults aged 40-55 years with an HbA1c measurement between 42-47 mmol/mol. N = 1000.",
+
+  "Study 2 Longitudinal",
+  "Investigate to what extent CGM-derived glycemic patterns are associated with long-term outcomes including type 2 diabetes, cardiovascular disease and mortality.",
+  "Baseline and follow-up data from the Maastricht study, a Dutch phenotyping study focusing on the etiology of type 2 diabetes, with a subset of participants having prediabetes.",
+  "Dutch adults aged 40-75 years with an HbA1c measurement between 42-47 mmol/mol. N = 511.",
+
+  "Study 3 Exploratory, hypothesis-generating physiological study",
+  "Characterise underlying metabolic dimensions, including insulin resistance, beta-cell function, energy expenditure and substrate metabolism, and how they relate to CGM response patterns.",
+  "Exploratory physiological study using whole-room indirect calorimetry at Steno Diabetes Center Aarhus.",
+  "N = 34 participants with prediabetes from the DP-Next study."
+)
+ft <- flextable(studies) |>
+  theme_vanilla() |>
+  bold(j = "Study", bold = TRUE) |>
+  width(j = "Study", width = 0.9) |>
+  width(j = "Aim", width = 1.9) |>
+  width(j = "Data source", width = 1.7) |>
+  width(j = "Population", width = 1.3) |>
+  valign(valign = "top", part = "body") |>
+  fontsize(size = 10, part = "all") |>
+  font(fontname = "Times new roman", part = "all") |>
+  padding(padding = 4, part = "all") |>
+  fit_to_width(max_width = 5.9)
+
+ft
+```
+
+{{< pagebreak >}}
+
+\begin{center}
+Figure 1: Overview of the timeline of the PhD project
+\end{center}
+\vspace{-1.5em}
+
+![](images/gant-extended-study3-02.pdf)
